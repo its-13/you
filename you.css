@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #780206, #061161);
+    color: #fff;
+    margin-bottom:60px ;
+}
+
+.header {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    width: 100vw;
+    background: linear-gradient(to right, #0369b6, #920a8e);
+    box-shadow: 2.5px 2.5px 15px rgb(109, 138, 42);
+    font-size: 32px;
+    font-weight: 600;
+    font-family: cursive;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    height: 65px;
+}
+
+.header p {
+    margin: 0 45px;
+}
+
+.back {
+    position: relative;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.back:hover {
+    background-color: rgb(153, 222, 43);
+    color: rgb(0, 0, 0);
+}
+
+.foo1 {
+    margin-top: 8px;
+    text-align: center;
+    line-height: 60px;
+    /* padding-left: 10px; */
+}
+
+.s1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 3rem;
+    /* margin-top: 4rem; */
+}
+
+.space1 {
+    height: 400px;
+    width: 44vw;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+.text1 {
+    text-align: center;
+    line-height: 48px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.meet {
+    position: relative;
+    float: right;
+    left: 180px;
+    bottom: 50px;
+}
+
+.s2 {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    /* margin-top: 4rem; */
+}
+
+.space2 {
+    height: 400px;
+    width: 720px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+.s3 {
+    display: flex;
+    justify-content: start;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.think {
+    position: relative;
+    right: 211px;
+    bottom: 30px;
+    height: 450px;
+}
+
+.space3 {
+    height: 400px;
+    width: 640px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+
+.s4 {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    margin-top: 4rem;
+}
+
+.confuse {
+    position: relative;
+    left: 211px;
+    bottom: 30px;
+    height: 450px;
+}
+
+.space4 {
+    height: 450px;
+    width: 680px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+
+.s5 {
+    display: flex;
+    justify-content: start;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.space5 {
+    height: 320px;
+    width: 600px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+.days {
+    position: relative;
+    right: 251px;
+    /* bottom: 20px; */
+    height: 450px;
+}
+
+.dream {
+    position: relative;
+    left: 211px;
+    bottom: 60px;
+    height: 350px;
+    width: 500px;
+}
+
+.s6 {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    margin-top: 4rem;
+}
+
+.space6 {
+    height: 475px;
+    width: 700px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+.please {
+    position: relative;
+    left: -111px;
+    width: 550px;
+    /* bottom: 20px; */
+    height: 400px;
+}
+
+.s7 {
+    display: flex;
+    justify-content: start;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.space7 {
+    height: 390px;
+    width: 680px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+
+.want {
+    position: relative;
+    right: -211px;
+    bottom: 60px;
+    /* height: 350px; */
+    /* width: 500px; */
+}
+
+.s8 {
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    /* margin-top: 4rem; */
+}
+
+.space8 {
+    height: 430px;
+    width: 680px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+.s9 {
+    display: flex;
+    justify-content: start;
+    margin-left: 3rem;
+    margin-top: 7rem;
+}
+
+.space9 {
+    height: 450px;
+    width: 730px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+.s10 {
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.space10 {
+    height: 430px;
+    width: 1080px;
+    border: 10px solid gold;
+    border-radius: 0px 45px;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

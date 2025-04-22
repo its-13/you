@@ -1,0 +1,102 @@
+body{
+    background-image:url(./back.jpg);
+    background-repeat: repeat;
+    background-size:cover ;
+    color: black;
+    font-weight: 600;
+    line-height: 4rem;
+    height: 100%;
+}
+.h1{
+    text-align: center;
+    margin-top: 14rem;
+    font-size: 56px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gift{
+    text-align: center;
+    font-size: large;
+    line-height: 70px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 210px;
+    height: 1px;
+    background-color: black;
+}
+.click{
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #291ef4;
+    background-color: #291ef4;
+    color: white;
+    font-family: sans-serif;
+    width: 200px;
+    display:inline-block;
+    border-radius: 5px;
+    transition: all 0.5s;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.button span{
+    position: relative;
+    transition: 0.5s;
+    display: inline-block;
+    cursor: pointer;
+}
+.click span:after{
+    content: '\00bb';
+    opacity: 0;
+    top: 0;
+    position: absolute; 
+    transition: 0.5s;
+}
+.click:hover span{
+    padding-right: 25px;
+}
+.click:hover span::after{
+    opacity: 1;
+    right: 0;
+}
+.glad{
+    float: left;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    font-family: sans-serif;
+}
+.display{
+    display: none;
+}
+
+@media (max-width:530px){
+    body{
+        background: none;
+        background: linear-gradient(#8e2de2, #4a00e0);
+        height: 98vh;
+    }
+    section{
+        display: none;
+    }
+    h1, h2 {
+        color: #fff;
+        text-align: center;
+        line-height: 35px;
+        /* color: #000; */
+    }
+    .display{
+        margin-top: 5rem;
+        font-family: cursive;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
